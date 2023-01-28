@@ -2,10 +2,38 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBar{
+background-color: palegoldenrod;
+padding: 10px;
+display: flex;
+flex-direction: column;
 }
+
+.link-home{
+  color: black;
+  text-decoration: none;
+}
+
+.link-home:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-pages{
+  text-decoration: none;
+  color: black;
+}
+
+.link-pages:hover{
+  text-decoration: none;
+  color: red;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
