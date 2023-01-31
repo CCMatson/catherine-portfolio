@@ -1,12 +1,17 @@
+body {
+background-color: silver;
+}
+
+
 .App {
   text-align: center;
 }
 
-.navBar{
-background-color: palegoldenrod;
-padding: 10px;
-display: flex;
-flex-direction: column;
+.navBar {
+  background-color: palegoldenrod;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .link-home{
@@ -34,6 +39,13 @@ flex-direction: column;
   color: red;
 }
 
+main{
+  background-color: peachpuff;
+}
+
+img {
+  width: 300px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,6 +1,17 @@
+import  myProjects  from "../data/projects";
+import ProjectList from '../components/ProjectList'
+
 function Projects() {
+  console.log(myProjects)
   return (
-      <h1>Projects</h1>
+    <>
+      <div>
+        <ul>
+        <ProjectList myProjects={myProjects} />
+        </ul> 
+      </div>
+      </>
+
   )
 }
 
