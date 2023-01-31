@@ -1,10 +1,16 @@
-// import hyphenatedWords from './hyphenatedWords'
+// const { myProjects }  = require( "../data/projects")
+// const {hyphenatedWords} = require( "./hyphenatedWords" ) 
 
-// import myProjects from "../data/projects";
+function findProjects (string){
+  // const title = string.replace('/projects/' ,'')
 
-// function findProjects (string){
-//   const title = string.replace('/projects/' ,'')
-//   myProjects.filter()
-// }
+  const foundProject = myProjects.filter(project => { const thisTitle = hyphenatedWords(project.title)
+    console.log(thisTitle)
+  return thisTitle === title
+  }) 
+  return foundProject
 
-// findProjects('Hello World')
+}
+
+findProjects( 'Class Cookbook')
+

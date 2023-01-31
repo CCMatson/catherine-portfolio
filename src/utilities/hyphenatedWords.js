@@ -5,5 +5,5 @@ function hyphenatedWords (string){
 return title
 }
 
-export default hyphenatedWords
+export { hyphenatedWords };
 

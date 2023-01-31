@@ -1,6 +1,19 @@
 import myProjects from "../data/projects"
+import { hyphenatedWords } from "../utilities/hyphenatedWords"
+import { useParams } from "react-router-dom"
+
 
 function ProjectDetails() {
+
+  const urlString   = useParams()
+
+  function findProjects (string){
+    const foundProject = myProjects.filter(project => hyphenatedWords(project) === string) 
+    
+    }
+  
+  findProjects( urlString)
+
   return (
     <>
     <h1>{myProjects[0].name}</h1>
@@ -10,6 +23,8 @@ function ProjectDetails() {
     <button>{myProjects[0].deploymentLink}</button>
     </>
   )
-}
+
+  }
+
 
 export default ProjectDetails
