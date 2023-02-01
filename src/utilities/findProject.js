@@ -1,16 +1,21 @@
-// const { myProjects }  = require( "../data/projects")
-// const {hyphenatedWords} = require( "./hyphenatedWords" ) 
+// import { useParams } from "react-router-dom"
+// const  myProjects   = require( "../data/projects.js")
+import myProjects from "../data/projects"
+const {hyphenatedWords} = require( "./hyphenatedWords" ) 
+
+
 
 function findProjects (string){
-  // const title = string.replace('/projects/' ,'')
 
-  const foundProject = myProjects.filter(project => { const thisTitle = hyphenatedWords(project.title)
-    console.log(thisTitle)
-  return thisTitle === title
+  const foundProject = myProjects.find(project => {
+
+    const foundTitle = hyphenatedWords(project.title)
+    return foundTitle === string
   }) 
+
   return foundProject
+  }
 
-}
 
-findProjects( 'Class Cookbook')
 
+  export default findProjects

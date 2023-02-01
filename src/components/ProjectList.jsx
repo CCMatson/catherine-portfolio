@@ -8,7 +8,7 @@ function ProjectList (props) {
       <div>
         <ul>
           {props.myProjects.map((project, idx) =>
-          <li key={idx}> <ProjectPreview title={project.title} image={project.image} />
+          <li> <ProjectPreview key={idx} title={project.title} image={project.image} />
           </li>
           )} 
         </ul> 

@@ -12,7 +12,7 @@ function ProjectPreview (props) {
       </h3>
       <img src={props.image} alt={props.title} />
       <section>
-        <Link to={`/projects/${newURL}` }>
+        <Link to={`${newURL}` }>
       <button>
         Learn more
       </button>

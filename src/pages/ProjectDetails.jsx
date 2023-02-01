@@ -1,30 +1,40 @@
-import myProjects from "../data/projects"
-import { hyphenatedWords } from "../utilities/hyphenatedWords"
-import { useParams } from "react-router-dom"
+import findProjects from "../utilities/findProject"
+import { useParams } from "react-router-dom";
+// import { hyphenatedWords } from "../utilities/hyphenatedWords"
+// import { useLocation } from "react-router-dom"
+// import myProjects from "../data/projects";
 
 
 function ProjectDetails() {
 
-  const urlString   = useParams()
+  const {projectDetails} = useParams()
 
-  function findProjects (string){
-    const foundProject = myProjects.filter(project => hyphenatedWords(project) === string) 
-    
-    }
-  
-  findProjects( urlString)
+  const project = findProjects(projectDetails)
+
 
   return (
+
     <>
-    <h1>{myProjects[0].name}</h1>
-    <p>{myProjects[0].description}</p>
-    <img src={myProjects[0].image} alt="" />
-    <button>{myProjects[0].repositoryLink}</button>
-    <button>{myProjects[0].deploymentLink}</button>
+  
+    <h1>      {project.title}   </h1>
     </>
   )
+
+
+
+  // const projectDetails  = useParams()
+
+  // function findProjects (string){
+  //   const foundProject = myProjects.filter(project => hyphenatedWords(project.title) === string) 
+  //   console.log('my project' , myProjects)
+  //   console.log('projectDetails' , projectDetails)
+  //   console.log('this is foundProject function' , foundProject)
+    // console.log(hyphenatedWords(project.title), 'project title')
+  //   return foundProject
+  //   }
+  // findProjects(projectDetails)
 
   }
 
 
-export default ProjectDetails
+export default ProjectDetails;
