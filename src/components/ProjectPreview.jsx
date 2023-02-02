@@ -6,9 +6,9 @@ function ProjectPreview (props) {
   return(
     <>
     <div className="preview-container">
-      <h3>
+      <h2>
     {props.title}
-      </h3>
+      </h2>
       <img src={props.image} alt={props.title} />
       <section>
         <Link to={`${newURL}` }>
