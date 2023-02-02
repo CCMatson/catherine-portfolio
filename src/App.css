@@ -6,7 +6,8 @@
 
 body {
 font-family: 'Biryani', sans-serif;
-background-color: #eaebed
+background-image: radial-gradient(circle, #eaebed, #bdc8d5, #8ea6bc, #5987a3, #006989);
+background: cover
 
 }
 
@@ -58,7 +59,7 @@ background-color: #eaebed
 
 main{
   background-color: transparent;
-  background-color: #eaebed;
+
 }
 
 img {
