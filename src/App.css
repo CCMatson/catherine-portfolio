@@ -75,12 +75,15 @@ img {
 .contact-section-one{
   padding-right: 50px;
   padding-left: 50px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .contact-section-two{
   padding-left: 50px;
   padding-right: 50px;
-
+  border: .05px solid black;
+  border-radius: 20px;
 }
 
 .about-me{
@@ -97,12 +100,17 @@ img {
 }
 
 .resume{
-  color: #006989;
+  color: #eaebed;
   text-decoration: none;
+  background-color:#006989;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow:#282c34 10px 5px 5px;
 }
 
 .resume:hover{
   color: red;
+  background-color: #eaebed;
   text-decoration: none;
   font-weight: bold;
 }
@@ -116,15 +124,16 @@ img {
   background-color: #006989;
   color: #eaebed;
   border-radius: 20px;
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
+  box-shadow:#282c34 10px 5px 5px;
 }
 
 .button:hover{
   background-color: #eaebed;
   color: #006989;
   border-radius: 20px;
-  padding: 5px;
+  padding: 10px;
   font-weight: bold;
 }
 
@@ -158,15 +167,26 @@ h4{
   background-color: #006989;
   color: #eaebed;
   border-radius: 20px;
-  padding: 5px;
+  padding: 10px;
+  box-shadow:#282c34 10px 5px 5px;
 }
 
 .learn-more-button:hover{
   background-color: #eaebed;
   color: #006989;
   border-radius: 20px;
-  padding: 5px;
+  padding: 10px;
   font-weight: bold;
+}
+
+.link{
+  text-decoration: none;
+  color:#006989;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: red;
 }
 
 @media (prefers-reduced-motion: no-preference) {

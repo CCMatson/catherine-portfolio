@@ -7,9 +7,9 @@ function Contact() {
     <h2>Reach out if you'd like to work with me!</h2>
       </div>
     <div className="contact-section-two">
-    <h4>Email me at Catherine.Matson@gmail.com</h4>
-    <h4>View my <a href="https://github.com/CCMatson">Github</a></h4>
-    <h4>Connect on <a href="https://www.linkedin.com/in/catherine-c-matson/">LinkedIn</a></h4>
+    <h4>My email is Catherine.Matson@gmail.com</h4>
+    <h4>View my <a href="https://github.com/CCMatson" className="link">Github</a></h4>
+    <h4>Connect on <a href="https://www.linkedin.com/in/catherine-c-matson/" className="link">LinkedIn</a></h4>
     </div>
     </div>
     </>
