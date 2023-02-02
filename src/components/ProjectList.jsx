@@ -9,8 +9,8 @@ function ProjectList (props) {
       <div className="project-preview">
         {/* <ul> */}
           {props.myProjects.map((project, idx) =>
-          <li> <ProjectPreview key={idx} title={project.title} image={project.image} />
-          </li>
+          <div> <ProjectPreview key={idx} title={project.title} image={project.image} />
+          </div>
           )} 
         {/* </ul>  */}
       </div>
