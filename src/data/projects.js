@@ -7,7 +7,7 @@ const myProjects = [
   },
   { title:'Class Cookbook App',
     description: '"Class Cookbook" is modern update on the old-fashioned community cookbook. This app is a link collector inspired by Pinterest. Logged in users can add recipe url links to the app, edit and delete recipes, and review other users contributions. This app was created using MEN stack, with database storage supported by mongoose and MongoDB.',
-    image: '/ClassCookBook.png',
+    image: '/CookBook.png',
     repositoryLink: 'https://github.com/CCMatson/recipe-collector',
     deploymentLink: 'https://recipe-collector.fly.dev/'
   }

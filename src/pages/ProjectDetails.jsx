@@ -1,5 +1,6 @@
 import findProjects from "../utilities/findProject"
 import { useParams } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import { hyphenatedWords } from "../utilities/hyphenatedWords"
 // import { useLocation } from "react-router-dom"
 // import myProjects from "../data/projects";
@@ -15,8 +16,10 @@ function ProjectDetails() {
   return (
 
     <>
-  
+    <h1>Project Details:</h1>
     <h1>      {project.title}   </h1>
+    <h4>{project.description}</h4>
+    <img src="../Cookbook.png" alt="" />
     </>
   )
 
