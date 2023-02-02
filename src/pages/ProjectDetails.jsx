@@ -14,30 +14,25 @@ function ProjectDetails() {
 
 
   return (
-
     <>
     <h1>Project Details:</h1>
-    <h1>      {project.title}   </h1>
+    <h2>      {project.title}   </h2>
     <h4>{project.description}</h4>
-    <img src="../Cookbook.png" alt="" />
+    <img src={project.image} alt="screen shot of the app landpage" />
+    <div className="button-container">
+
+    <a href={project.repositoryLink}>
+    <button className="button">Github</button>  </a>
+    <a href={project.deploymentLink}>
+    <button className="button">Deployment Link</button>  </a>
+
+
+    </div>
     </>
   )
 
 
-
-  // const projectDetails  = useParams()
-
-  // function findProjects (string){
-  //   const foundProject = myProjects.filter(project => hyphenatedWords(project.title) === string) 
-  //   console.log('my project' , myProjects)
-  //   console.log('projectDetails' , projectDetails)
-  //   console.log('this is foundProject function' , foundProject)
-    // console.log(hyphenatedWords(project.title), 'project title')
-  //   return foundProject
-  //   }
-  // findProjects(projectDetails)
-
   }
 
 
-export default ProjectDetails;
+export default ProjectDetails

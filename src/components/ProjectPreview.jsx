@@ -12,7 +12,7 @@ function ProjectPreview (props) {
       <img src={props.image} alt={props.title} />
       <section>
         <Link to={`${newURL}` }>
-      <button>
+      <button className='learn-more-button'>
         Learn more
       </button>
         </Link>
