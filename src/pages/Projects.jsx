@@ -1,6 +1,6 @@
 import  myProjects  from "../data/projects";
 import ProjectList from '../components/ProjectList'
-// import ProjectDetails from "./ProjectDetails";
+
 
 function Projects() {
   console.log(myProjects)
