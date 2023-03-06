@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 function NavBar() {
     return (
         <nav className="navBar">
-            <div className="nav-link">
-            <Link className="link-home"
+            {/* <div className="nav-link"> */}
+            <div className="links-container">
+            <Link className="link-pages"
                 to='/'
             >
                 Catherine Matson
             </Link>
-            </div>
+            {/* </div> */}
 
-            <div className="links-container">
                 <div>
                     <Link className="link-pages"
                         to='/about'

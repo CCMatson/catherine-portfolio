@@ -6,11 +6,11 @@ function Projects() {
   console.log(myProjects)
   return (
     <>
-      <div>
-        <ul>
+      <div className="projects">
+       
         <ProjectList myProjects={myProjects} />
         {/* <ProjectDetails myProjects={myProjects}/> */}
-        </ul> 
+      
       </div>
       </>
 
