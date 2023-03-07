@@ -1,0 +1,17 @@
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home img {
+  width: 400px;
+  border-radius: 24%;
+  border: 1px solid #072ac8;
+
+}
+
+#home h1,
+h2 {
+  text-align: center;
+}

@@ -1,3 +1,5 @@
+import '../styles/projects.css'
+
 import { hyphenatedWords } from "../utilities/hyphenatedWords";
 import { Link } from "react-router-dom";
 
@@ -5,12 +7,13 @@ function ProjectPreview (props) {
   let newURL = hyphenatedWords(props.title)
   return(
     <>
-    <div className="preview-container">
+    <div className='preview-title'>
       <h1>{props.title}  </h1>
+    <div className="project-preview">
     <h2>
     {props.technology}
       </h2>
-      <img className="preview-image"src={props.image} alt={props.title} />
+      <img src={props.image} alt={props.title} />
       <section>
         <Link to={`${newURL}` }>
       <button className='button'>
@@ -19,6 +22,8 @@ function ProjectPreview (props) {
         </Link>
       </section>
     </div>
+    </div>
+
       </>
   )
 

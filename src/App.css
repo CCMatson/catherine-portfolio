@@ -6,22 +6,18 @@
 /* </style> */
 
 body {
-  font-family: 'Biryani', sans-serif;
-  font-family: 'Cardo', serif;
+  margin: 0;
+  /* font-family: 'Biryani', sans-serif; */
+  /* font-family: 'Cardo', serif; */
   font-family: 'Montserrat', sans-serif;
   /* background-color: #f9eae1; */
   background-color: #a2d6f9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-
-/* .App {
-  text-align: center;
-} */
-
 .navBar {
-  /* background-color: #006989; */
-  /* background-color: #7d4f50; */
-  /* background-color: #03045e; */
   background: #072ac8;
   padding: 20px;
   display: flex;
@@ -31,12 +27,10 @@ body {
   font-size: 32px;
 }
 
-
 .links-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* height: 40px; */
 }
 
 .button {
@@ -75,11 +69,13 @@ body {
 h1 {
   font-size: 24px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 20px;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -170,46 +166,17 @@ main {
   width: 100%;
 }
 
-.home-intro {
+section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  /* background-color: #f9eae1; */
-}
-
-.home-page {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 50vh;
 }
 
-.home-text {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  /* background-color: #f9eae1; */
-
-}
-
-.home-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 45%;
-}
 
 div a {
   text-decoration: none;
 }
 
-.home-page {
-  border-radius: 10px;
-  object-fit: cover;
-}
 
 .icons {
   display: flex;
@@ -282,62 +249,7 @@ div a {
 }
 
 
-/* .button:hover{
-  background-color: #eaebed;
-  color: #006989;
-  border-radius: 20px;
-  padding: 10px;
-  font-weight: bold;
-} */
 
-.project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-preview {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* width: 45%; */
-  border: .5px solid black;
-  border-radius: 10px;
-  margin: 5px;
-  padding: 5px;
-  background-color: #f9eae1;
-  height: 35em;
-  margin: 30px;
-}
-
-.preview-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.preview-image {
-  width: 300px;
-}
-
-.details-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 50px;
-}
 
 
 .link {

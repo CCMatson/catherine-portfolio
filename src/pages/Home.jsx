@@ -1,10 +1,13 @@
+import '../styles/home.css'
+
 function Home() {
   return (
     <>
-      <div className='about-me'>
-        <h1>Catherine Matson, Full Stack Software Engineer</h1>
-        <img className="home-page" src="https://i.imgur.com/8vj7Xmv.png" alt="" />
-      </div>
+      <section id='home'>
+        <h1>Catherine Matson</h1>
+        <h2>Full Stack Software Engineer</h2>
+        <img src="https://i.imgur.com/VyDet44.png" alt="logo" />
+      </section>
 
 
 

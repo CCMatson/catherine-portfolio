@@ -1,5 +1,6 @@
 import  myProjects  from "../data/projects";
 import ProjectList from '../components/ProjectList'
+import '../styles/projects.css'
 
 
 function Projects() {
