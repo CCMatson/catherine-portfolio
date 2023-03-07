@@ -12,6 +12,13 @@ function NavBar() {
             </Link>
             {/* </div> */}
 
+            <div >
+                <Link className="link-pages"
+                    to='/projects'
+                >
+                    Projects
+                </Link>
+            </div>
                 <div>
                     <Link className="link-pages"
                         to='/about'
@@ -36,13 +43,6 @@ function NavBar() {
                     </Link>
                 </div>
 
-                <div >
-                    <Link className="link-pages"
-                        to='/projects'
-                    >
-                        Projects
-                    </Link>
-                </div>
 
             </div>
         </nav>
