@@ -1,8 +1,10 @@
 # Catherine's Portfolio
 
-[Click this link to visit the app](https://ccm-react-portfolio.netlify.app/)
+<a href="https://imgur.com/VyDet44"><img src="https://i.imgur.com/VyDet44.png" title="source: imgur.com" /></a>
 
-### Technology used
+# [Click this link to visit the app](https://ccm-react-portfolio.netlify.app/)
+
+#### Technology used
 * React
 * Javascript
 * HTML

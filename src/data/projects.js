@@ -15,26 +15,26 @@ const myProjects = [
     repositoryLink: 'https://github.com/CCMatson/recipe-collector',
     deploymentLink: 'https://recipe-collector.fly.dev/'
   },
-  // {
-  //   title: 'Typescript TicTacToe',
-  //   technology: "React, Typescript",
-  //   description: 'Classic TicTacToe game build with React and Typescript',
-  //   image: '/CookBook.png',
-  //   repositoryLink: 'https://github.com/CCMatson/recipe-collector',
-  //   deploymentLink: 'https://recipe-collector.fly.dev/'
-  // },
+  {
+    title: 'This Portfolio',
+    technology: "React App",
+    description: 'I created this portfolio using React and deployed using Netlify.',
+    image: '/Portfolio.png',
+    repositoryLink: 'https://github.com/CCMatson/catherine-portfolio',
+    deploymentLink: 'https://ccm-react-portfolio.netlify.app/'
+  },
   {
     title: 'Shoe Collector',
-    technology: "PERN stack decoupled app with JWT authorization. Front end is React App with the Vite Tool, written with Typescript.",
-    description: '"Shoe Collector " is a modern app for friends to curate a shoe collection. Logged in users can add shoes to the app, edit and delete. This app was created using PERN stack, with database storage supported by sequelize and PostgreSQL.',
+    technology: "PERN stack app, Typescript, React App with Vite Tool",
+    description: 'Logged in users can add shoes to their collection, edit and delete. This app uses JWT authorization, and has database storage with sequelize and PostgreSQL.',
     image: '/ShoeCollectorLanding.png',
     repositoryLink: 'https://github.com/CCMatson/shoes-front-end',
     deploymentLink: 'https://shoe-collector.netlify.app/'
   },
   {
     title: 'Fortune Teller App',
-    technology: "MERN stack decoupled app with Google Oath. Back end data storage on MongoDB.",
-    description: '"Fortune Teller" is a positive entertainment app where users can create, edit, and delete fortunes that are later sent to users who request a random "fortune" from the universe. This app was a group project, where my role was "git manager" in charge of merging code and coding the front and back end of our key data structure.',
+    technology: "MERN stack app, team project.",
+    description: '"Fortune Teller" is a positive entertainment app where users can create, edit, and delete fortunes that are later sent to users who request a random "fortune" from the universe. This app was a group project, where my role was "git manager" in charge of merging code and coding the front and back end of our key data structure. Includes authorization with Google Oath and storage on MongoDB.',
     image: '/CosmicCueLanding.png',
     repositoryLink: 'https://github.com/CCMatson/cosmic-cue-front-end',
     deploymentLink: 'https://main--cosmic-cue.netlify.app/'
