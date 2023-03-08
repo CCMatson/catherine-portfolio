@@ -38,6 +38,8 @@
 .project-preview img{
   width: 350px;
   height: 200px;
+  border: #282c34 solid  1px;
+
 }
 
 .project-preview button{
