@@ -11,6 +11,10 @@ text-align: center;
 width: 50%;
 }
 
+.contact-one img {
+  width: 75px;
+}
+
 
 .contact-one a{
   color: #f24c00;

@@ -190,12 +190,26 @@ div a {
 
 .resume-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.resume-text{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50%;
 
 }
 
+.resume-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 /* .resume {
   color: #eaebed;
   text-decoration: none;

@@ -15,7 +15,7 @@ function ProjectDetails() {
     <section>
 
       <div className="details-page">
-        <h1>Project Details:{project.title}   </h1>
+        <h1>Project Details : {project.title}</h1>
         <h4>{project.description}</h4>
         <div>
           <a href={project.repositoryLink}>
