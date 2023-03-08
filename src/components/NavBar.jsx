@@ -11,7 +11,6 @@ function NavBar() {
                 Catherine Matson
             </Link>
             {/* </div> */}
-
             <div >
                 <Link className="link-pages"
                     to='/projects'

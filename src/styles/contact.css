@@ -1,0 +1,34 @@
+
+.contact-page {
+display: flex;
+width: 100%;
+}
+
+.contact-one{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 50%;
+}
+
+
+.contact-one a{
+  color: #f24c00;
+}
+
+.contact-one a:hover{
+  color: black;
+  background-color: #fff;
+}
+.contact-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
+}
+
+.contact-two img{
+width: 300px;
+}

@@ -5,26 +5,31 @@
 
 /* </style> */
 
+
 body {
   margin: 0;
   /* font-family: 'Biryani', sans-serif; */
   /* font-family: 'Cardo', serif; */
   font-family: 'Montserrat', sans-serif;
   /* background-color: #f9eae1; */
-  background-color: #a2d6f9;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
 .navBar {
-  background: #072ac8;
+  background-color: #282c34;
+  color: #072ac8;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  /* font-family: 'Cardo', serif; */
   font-weight: 400;
   font-size: 32px;
+}
+
+.navBar img {
+  height: 50px;
 }
 
 .links-container {
@@ -37,6 +42,8 @@ body {
   align-items: center;
   appearance: none;
   background-color: #fff;
+  color:#282c34;
+  /* color: #072ac8; */
   border-radius: 24px;
   border-style: none;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
@@ -45,7 +52,7 @@ body {
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 500;
   height: 48px;
   justify-content: center;
@@ -86,6 +93,7 @@ h4 {
 .link-pages {
   text-decoration: none;
   color: #fff;
+  /* color: #072ac8; */
   border-radius: 24px;
   border: #a2d6f9 .05px solid;
   padding: 10px;
@@ -125,7 +133,7 @@ h4 {
   /* color: #f9eae1; */
   background-color: #fff;
   /* color: #1e96fc; */
-  color: #072ac8;
+  color: #282c34;
   border-radius: 24px;
   border: #a2d6f9 .05px solid;
   padding: 10px;
@@ -170,6 +178,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 
 
@@ -178,90 +187,37 @@ div a {
 }
 
 
-.icons {
-  display: flex;
-  height: 300px;
-}
-
-.icons img {
-  width: 100px;
-}
-
-
-.contact-section-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-.contact-section-two {
-  border: .05px solid black;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.contact-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-}
-
-.contact-section-one {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-}
-
 
 .resume-container {
-  padding-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
-.resume {
+/* .resume {
   color: #eaebed;
   text-decoration: none;
   background-color: #006989;
   padding: 10px;
   border-radius: 20px;
   box-shadow: #282c34 10px 5px 5px;
-}
+  background-color: green;
+} */
 
-.resume:hover {
+/* .resume:hover {
   color: red;
   background-color: #eaebed;
   text-decoration: none;
   font-weight: bold;
-}
+} */
 
 .button-container {
   display: flex;
   justify-content: space-evenly;
 }
 
-
-
-
-
-.link {
-  text-decoration: none;
-  color: black;
-
-}
-
-.link:hover {
-  text-decoration: none;
-  color: red;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

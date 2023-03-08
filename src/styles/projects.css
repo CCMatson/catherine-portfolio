@@ -32,6 +32,7 @@
   background-color: #f9eae1;
   height: 35em;
   margin: 30px;
+  background-color: #fff;
 }
 
 .project-preview img{
@@ -42,6 +43,13 @@
 .project-preview button{
   margin: 20px;
   width: 350px;
+}
+
+.project-preview button:hover{
+  margin: 20px;
+  width: 350px;
+  background-color: #282c34;
+  color: #fff;
 }
 
 .preview-title{
@@ -80,6 +88,13 @@ border: 1px black solid;
 font-size: 24px;
 margin: 20px;
 }
+
+.details-page button:hover {
+  font-size: 24px;
+  margin: 20px;
+  background-color: #282c34;
+  color: #fff;
+  }
 
 
 .details-page h4 {
