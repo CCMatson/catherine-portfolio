@@ -7,7 +7,8 @@ function About() {
         <section id='about'>
           <h1>I'm a full stack developer with experience in React and JavaScript.</h1>
 
-          <h4>What would you do if you knew you would not fail? In 2023, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. I find software engineering very fullfilling, and I'm excited about the future. I hope you will you check out my recent projects and reach out to connect with me.</h4>
+          <h4>What would you do if you knew you would not fail? In 2023, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. My career in software engineering has been fullfilling, and I'm excited about the future. </h4>
+          <h4>I hope you will you check out my recent projects and reach out to connect with me.</h4>
         </section>
         <section id="technology">
           <h1>Technologies I use:</h1>
@@ -17,35 +18,35 @@ function About() {
               <img src="https://skillicons.dev/icons?i=react" alt="react-icon" />
             </div>
             <div>
-            <label htmlFor="">Typscript</label>
+              <label htmlFor="">Typscript</label>
               <img src="https://skillicons.dev/icons?i=ts" alt="typescript-icon" />
             </div>
             <div>
-            <label htmlFor="">Javascript</label>
+              <label htmlFor="">Javascript</label>
               <img src="https://skillicons.dev/icons?i=js" alt="" />
             </div>
             <div>
-            <label htmlFor="">Express</label>
+              <label htmlFor="">Express</label>
               <img src="https://skillicons.dev/icons?i=express" alt="express-logo" />
             </div>
             <div>
-            <label htmlFor="">Node</label>
+              <label htmlFor="">Node</label>
               <img src="https://skillicons.dev/icons?i=nodejs" alt="node-icon" />
             </div>
             <div>
-            <label htmlFor="">CSS</label>
+              <label htmlFor="">CSS</label>
               <img src="https://skillicons.dev/icons?i=css" alt="css-logo" />
             </div>
             <div>
-            <label htmlFor="">HTML</label>
+              <label htmlFor="">HTML</label>
               <img src="https://skillicons.dev/icons?i=html" alt="html-icon" />
             </div>
             <div>
-            <label htmlFor="">Postman</label>
+              <label htmlFor="">Postman</label>
               <img src="https://skillicons.dev/icons?i=postman" alt="postman-icon" />
             </div>
             <div>
-            <label htmlFor="">MongoDB</label>
+              <label htmlFor="">MongoDB</label>
               <img src="https://skillicons.dev/icons?i=mongodb" alt="mongoDB" />
             </div>
             <div>
@@ -53,7 +54,7 @@ function About() {
               <img src="https://skillicons.dev/icons?i=postgres" alt="postgres-icon" />
             </div>
             <div>
-            <label htmlFor="">VS Code</label>
+              <label htmlFor="">VS Code</label>
               <img src="https://skillicons.dev/icons?i=vscode" alt="vscode-icon" />
             </div>
           </div>
