@@ -1,0 +1,105 @@
+.projects h1{
+  text-align: center
+}
+.project-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.project-preview {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  border: 1px solid #072ac8;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.project-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* width: 45%; */
+  border: .5px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #f9eae1;
+  height: 35em;
+  margin: 30px;
+  background-color: #fff;
+}
+
+.project-preview img{
+  width: 350px;
+  height: 200px;
+}
+
+.project-preview button{
+  margin: 20px;
+  width: 350px;
+}
+
+.project-preview button:hover{
+  margin: 20px;
+  width: 350px;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.preview-title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-preview h2{
+  width: 300px;
+  /* position: absolute; */
+    top: 0;
+    height: 100%;
+    /* width: 100%;
+    opacity: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.details-page{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.details-page img {
+  width: 50vw;
+border: 1px black solid;
+  border-radius: 24px;
+}
+
+.details-page button {
+font-size: 24px;
+margin: 20px;
+}
+
+.details-page button:hover {
+  font-size: 24px;
+  margin: 20px;
+  background-color: #282c34;
+  color: #fff;
+  }
+
+
+.details-page h4 {
+  text-align: center;
+  width: 50vw;
+}
+
+

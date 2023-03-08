@@ -1,21 +1,19 @@
+import '../styles/projects.css'
 import ProjectPreview from './ProjectPreview'
 
-function ProjectList (props) {
-  console.log('project list works')
+function ProjectList(props) {
   return (
     <>
-    <div className="project-list">
       <h1>My Projects</h1>
-      <div className="project-preview">
-        {/* <ul> */}
-          {props.myProjects.map((project, idx) =>
-          <div> <ProjectPreview key={idx} title={project.title} image={project.image} />
+      <div className="project-list">
+        {props.myProjects.map((project, idx) =>
+          <div > <ProjectPreview key={idx} title={project.title} image={project.image} technology={project.technology}/>
           </div>
-          )} 
-        {/* </ul>  */}
+        )}
+
       </div>
-    </div>
-      </>
+
+    </>
 
   )
 }
