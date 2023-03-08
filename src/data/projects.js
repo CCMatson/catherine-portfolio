@@ -10,7 +10,7 @@ const myProjects = [
   {
     title: 'This Portfolio',
     technology: "React App",
-    description: 'I created this portfolio using React and deployed using Netlify.',
+    description: 'I created this portfolio using React with deployment hosted by Netlify.',
     image: '/Portfolio.png',
     repositoryLink: 'https://github.com/CCMatson/catherine-portfolio',
     deploymentLink: 'https://ccm-react-portfolio.netlify.app/'
@@ -33,8 +33,8 @@ const myProjects = [
   },
   {
     title: 'Fortune Teller App',
-    technology: "MERN stack app, team project.",
-    description: '"Fortune Teller" is a positive entertainment app where users can create, edit, and delete fortunes that are later sent to users who request a random "fortune" from the universe. This app was a group project, where my role was "git manager" in charge of merging code and coding the front and back end of our key data structure. Includes authorization with Google Oath and storage on MongoDB.',
+    technology: "Team project, MEN Stack App.",
+    description: '"Fortune Teller" is a positive entertainment app where users can create, edit, and delete fortunes that are later sent to users who request a random "fortune" from the universe. This app was a group project, where my role was "git manager" in charge of merging code and writing the code for the front and back-end of our key data structure. Includes authorization with Google Oath and storage on MongoDB.',
     image: '/CosmicCueLanding.png',
     repositoryLink: 'https://github.com/CCMatson/cosmic-cue-front-end',
     deploymentLink: 'https://main--cosmic-cue.netlify.app/'
