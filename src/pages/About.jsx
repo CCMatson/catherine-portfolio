@@ -7,10 +7,10 @@ function About() {
         <section id='about'>
           <h1>I'm a full stack developer with experience in React and JavaScript.</h1>
 
-          <h4>What would you do if you knew you would not fail? In late 2022, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. I find software engineering very fullfilling, and I'm excited about the future. I hope you will you check out my recent projects and reach out to connect with me.</h4>
+          <h4>What would you do if you knew you would not fail? In 2023, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. I find software engineering very fullfilling, and I'm excited about the future. I hope you will you check out my recent projects and reach out to connect with me.</h4>
         </section>
         <section id="technology">
-          <h1>Technology I use:</h1>
+          <h1>Technologies I use:</h1>
           <div className="icons">
             <div>
               <label htmlFor="">React</label>

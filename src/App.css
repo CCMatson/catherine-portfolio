@@ -210,22 +210,10 @@ div a {
   align-items: center;
   width: 50%;
 }
-/* .resume {
-  color: #eaebed;
-  text-decoration: none;
-  background-color: #006989;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: #282c34 10px 5px 5px;
-  background-color: green;
-} */
 
-/* .resume:hover {
-  color: red;
-  background-color: #eaebed;
-  text-decoration: none;
-  font-weight: bold;
-} */
+.resume-image img {
+  width: 500px;
+}
 
 .button-container {
   display: flex;

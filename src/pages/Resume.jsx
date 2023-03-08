@@ -14,7 +14,7 @@ function Resume() {
           </div>
 
           <div className='resume-image'>
-            <img src="https://i.imgur.com/l2aRtte.gif" alt="" />
+            <img src="https://i.imgur.com/JDDOB3q.gif" alt="" />
           </div>
 
         </div>

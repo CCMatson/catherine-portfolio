@@ -8,8 +8,8 @@ function ProjectPreview (props) {
   return(
     <>
     <div className='preview-title'>
-      <h1>{props.title}  </h1>
     <div className="project-preview">
+      <h1>{props.title}  </h1>
     <h2>
     {props.technology}
       </h2>
