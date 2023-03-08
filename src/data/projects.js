@@ -9,7 +9,7 @@ const myProjects = [
   },
   {
     title: 'This Portfolio',
-    technology: "React App",
+    technology: "React, HTML, CSS",
     description: 'I created this portfolio using React with deployment hosted by Netlify.',
     image: '/Portfolio.png',
     repositoryLink: 'https://github.com/CCMatson/catherine-portfolio',

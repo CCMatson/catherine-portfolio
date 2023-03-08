@@ -10,9 +10,9 @@ function ProjectPreview (props) {
     <div className='preview-title'>
     <div className="project-preview">
       <h1>{props.title}  </h1>
-    <h2>
+    <h4>
     {props.technology}
-      </h2>
+      </h4>
       <img src={props.image} alt={props.title} />
       <section>
         <Link to={`${newURL}` }>
