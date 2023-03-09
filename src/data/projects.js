@@ -18,7 +18,7 @@ const myProjects = [
   {
     title: 'Shoe Collector',
     technology: "PERN stack app, Typescript, React App with Vite Tool",
-    description: 'Logged in users can add shoes to their collection, edit and delete. This app uses JWT authorization, and has database storage with sequelize and PostgreSQL.',
+    description: 'Logged in users can add shoes to their collection, edit and delete. This app uses JWT authorization. The database storage is sequelize and PostgreSQL.',
     image: '/ShoeCollectorLanding.png',
     repositoryLink: 'https://github.com/CCMatson/shoes-front-end',
     deploymentLink: 'https://shoe-collector.netlify.app/'
@@ -33,8 +33,8 @@ const myProjects = [
   },
   {
     title: 'Fortune Teller App',
-    technology: "Team project, MEN Stack App",
-    description: '"Fortune Teller" is a positive entertainment app where users can create, edit, and delete fortunes that are later sent to users who request a random "fortune" from the universe. This app was a group project, where my role was "git manager" in charge of merging code and writing the code for the front and back-end of our key data structure. Includes authorization with Google Oath and storage on MongoDB.',
+    technology: "Team project, MERN Stack App",
+    description: '"Fortune Teller" is a positive entertainment app where users can create, edit, and delete fortunes that are later sent to other users who request a "random fortune from the universe". This app was a group project, where my role was "git manager" in charge of merging code, and writing the code for the front and back-end of our key data structure. Includes authorization with Google Oath and storage on MongoDB.',
     image: '/CosmicCueLanding.png',
     repositoryLink: 'https://github.com/CCMatson/cosmic-cue-front-end',
     deploymentLink: 'https://main--cosmic-cue.netlify.app/'
