@@ -21,7 +21,7 @@ body {
 
 .navBar {
   background-color: #282c34;
-  color: #072ac8;
+  /* color: #072ac8; */
   padding: 20px;
   display: flex;
   flex-direction: column;
