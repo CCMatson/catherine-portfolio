@@ -1,19 +1,19 @@
 const myProjects = [
   {
-    title: 'PokeApi Battle',
-    technology: "React, RESTful Api, HTML, CSS",
-    description: "This React app consumes all of it's data from a RESTful API interface. Users can choose a pokemon and battle against two computer generated opponents. Users can review a comprehensive list of pokemon, and learn specific details about their game play.",
-    image: '/PokiApi.png',
-    repositoryLink: 'https://github.com/CCMatson/pokeapi-react-practice',
-    deploymentLink: 'https://pokeapi-game.netlify.app/'
-  },
-  {
     title: 'This Portfolio',
     technology: "React, HTML, CSS",
     description: 'I created this portfolio using React, with deployment hosted by Netlify.',
     image: '/Portfolio.png',
     repositoryLink: 'https://github.com/CCMatson/catherine-portfolio',
     deploymentLink: 'https://ccm-react-portfolio.netlify.app/'
+  },
+  {
+    title: 'PokeApi Battle',
+    technology: "React, RESTful Api, HTML, CSS",
+    description: "This React app consumes all of it's data from a RESTful API interface. Users can choose a pokemon and battle or view a comprehensive list of pokemon, and learn specific details about their game play.",
+    image: '/PokiApi.png',
+    repositoryLink: 'https://github.com/CCMatson/pokeapi-react-practice',
+    deploymentLink: 'https://pokeapi-game.netlify.app/'
   },
   {
     title: 'Shoe Collector',
