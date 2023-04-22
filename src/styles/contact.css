@@ -1,7 +1,10 @@
 
 .contact-page {
 display: flex;
-width: 100%;
+max-width: 1600px;
+align-items: center;
+justify-content: space-evenly;
+
 }
 
 .contact-one{

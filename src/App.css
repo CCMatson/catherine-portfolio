@@ -106,6 +106,12 @@ div a {
   width: 100%;
 }
 
+.resume-container a {
+  background-color: #0000FF;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
 .resume-text{
   display: flex;
   flex-direction: column;
@@ -115,22 +121,13 @@ div a {
 
 }
 
-.resume-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
 
-.resume-image img {
-  width: 500px;
-}
 
-/* .button-container {
+.button-container {
   display: flex;
   justify-content: space-evenly;
   background-color: red;
-} */
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

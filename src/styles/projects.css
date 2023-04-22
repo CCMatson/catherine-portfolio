@@ -1,11 +1,18 @@
 .projects h1{
   text-align: center
 }
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .project-list {
   display: flex;
-  flex-flow: row wrap;
-  gap: 30px;
+  align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1600px;
 }
 
 .project-preview {
