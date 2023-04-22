@@ -6,37 +6,62 @@
 
 /* </style> */
 
-
-body {
-  margin: 0;
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  /* margin: 0; */
   /* font-family: 'Biryani', sans-serif; */
   /* font-family: 'Cardo', serif; */
-  font-family: 'Montserrat', sans-serif;
   /* background-color: #f9eae1; */
   background-color: #fff;
+  /* display: flex;
+  flex-direction: column; */
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: 'Shantell Sans', cursive;;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: 'Cardo', serif;
+  /* margin: 30px 10px; */
+  /* font-family: 'Shantell Sans', cursive;; */
+}
+
+
+/* 
+main {
+  background-color: transparent;
+  width: 100%;
+} */
+
+
+section {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-}
-
-.navBar {
-  background-color: #282c34;
-  /* color: #072ac8; */
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  font-weight: 400;
-  font-size: 32px;
-}
-
-.navBar img {
-  height: 50px;
-}
-
-.links-container {
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
+}
+
+
+div a {
+  text-decoration: none;
 }
 
 .button {
@@ -74,131 +99,17 @@ body {
   z-index: 0;
 }
 
-h1 {
-  font-size: 24px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-h3{
-  font-family: 'Shantell Sans', cursive;;
-}
-
-h4 {
-  font-size: 24px;
-  font-family: 'Cardo', serif;
-  /* font-family: 'Shantell Sans', cursive;; */
-}
-
-.link-pages {
-  text-decoration: none;
-  color: #fff;
-  /* color: #072ac8; */
-  border-radius: 24px;
-  border: #a2d6f9 .05px solid;
-  padding: 10px;
-  align-items: center;
-  appearance: none;
-  border-radius: 24px;
-  border-style: none;
-  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-flex;
-  fill: currentcolor;
-  font-size: 24px;
-  font-weight: 500;
-  height: 48px;
-  justify-content: center;
-  letter-spacing: .25px;
-  line-height: normal;
-  max-width: 100%;
-  overflow: visible;
-  padding: 2px 24px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: auto;
-  will-change: transform, opacity;
-  z-index: 0;
-}
-
-.link-pages:hover {
-  text-decoration: none;
-  /* color: #f9eae1; */
-  background-color: #fff;
-  /* color: #1e96fc; */
-  color: #282c34;
-  border-radius: 24px;
-  border: #a2d6f9 .05px solid;
-  padding: 10px;
-  align-items: center;
-  appearance: none;
-  background-color: #fff;
-  border-radius: 24px;
-  border-style: none;
-  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-flex;
-  fill: currentcolor;
-  font-size: 24px;
-  font-weight: 500;
-  height: 48px;
-  justify-content: center;
-  letter-spacing: .25px;
-  line-height: normal;
-  max-width: 100%;
-  overflow: visible;
-  padding: 2px 24px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: auto;
-  will-change: transform, opacity;
-  z-index: 0;
-}
-
-main {
-  background-color: transparent;
-  width: 100%;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-}
-
-
-div a {
-  text-decoration: none;
-}
-
-
-
 .resume-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.resume-container a {
+  background-color: #0000FF;
+  color: #fff;
+  margin-bottom: 50px;
 }
 
 .resume-text{
@@ -210,20 +121,12 @@ div a {
 
 }
 
-.resume-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
 
-.resume-image img {
-  width: 500px;
-}
 
 .button-container {
   display: flex;
   justify-content: space-evenly;
+  background-color: red;
 }
 
 

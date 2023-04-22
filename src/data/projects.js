@@ -1,7 +1,7 @@
 const myProjects = [
     {
     title: 'Shoe Collector',
-    technology: "PERN stack app, Typescript, React App with Vite Tool",
+    technology: "PERN stack app, Typescript, React with Vite",
     description: 'Logged in users can add shoes to their collection, edit and delete. This app uses JWT authorization. The database storage is sequelize and PostgreSQL. Sample log in, email: "cb@gmail.com" password: "cb"',
     image: '/ShoeCollectorLanding.png',
     repositoryLink: 'https://github.com/CCMatson/shoes-front-end',
@@ -15,22 +15,22 @@ const myProjects = [
     repositoryLink: 'https://github.com/CCMatson/weather-api-ts',
     deploymentLink: 'https://weather-api-ts.netlify.app/'
   },
-    {
-    title: 'This Portfolio',
-    technology: "React, HTML, CSS",
-    description: 'I created this portfolio using React, with deployment hosted by Netlify. A unique feature is the code in the src/utilites folder that holds vanilla javascript functions to create the custom url for each profile page',
-    image: '/Portfolio.png',
-    repositoryLink: 'https://github.com/CCMatson/catherine-portfolio',
-    deploymentLink: 'https://ccm-react-portfolio.netlify.app/'
-  },
   {
     title: 'Plantivity App',
-    technology: "MERN Stack App with JWT auth",
+    technology: "MERN Stack App with JWT auth, Hackathon Submission",
     description: 'GA Hackathon submission! This app was created by a team of 5 devs and 3 UX/UI designers over four days. My role was to code the font end forms where users input and update their actions. As users progress and check off their actions, the plants in their garden grow. This productivity app encourages balance and positive mental health.',
     image: '/Plantivity.png',
     repositoryLink: 'https://github.com/CCMatson/team6-hackathon-fe',
     deploymentLink: 'https://plantivity.netlify.app/'
   },
+  {
+  title: 'This Portfolio',
+  technology: "React, HTML, CSS",
+  description: 'I created this portfolio using React, with deployment hosted by Netlify. A unique feature is the code in the src/utilites folder that holds vanilla javascript functions to create the custom url for each profile page',
+  image: '/Portfolio.png',
+  repositoryLink: 'https://github.com/CCMatson/catherine-portfolio',
+  deploymentLink: 'https://ccm-react-portfolio.netlify.app/'
+},
   // {
   //   title: 'Fortune Teller App',
   //   technology: "Team project, MERN Stack App",

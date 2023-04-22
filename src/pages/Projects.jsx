@@ -7,7 +7,7 @@ function Projects() {
   return (
     <>
       <div className="projects">   
-        <ProjectList myProjects={myProjects} />   
+        <ProjectList myProjects={myProjects} key={myProjects.name}/>   
       </div>
       </>
 

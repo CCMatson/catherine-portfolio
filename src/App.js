@@ -1,5 +1,6 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import { Element } from 'react-scroll';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -9,19 +10,30 @@ import NavBar from './components/NavBar';
 import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
+  // const [showDetails, setShowDetails] = useState(false)
+  // const [projectState, setProjectState] = useState({})
   return (
     <div className="App">
         <NavBar/>
-        <main>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/projects' element={<Projects />} />
-          < Route path='/projects/:projectDetails' element={<ProjectDetails/>}/>
-        </Routes>
-        </main>
+        <Element name="home">
+        <Home />
+        </Element>
+        <Element name="about">
+        <About />
+        </Element>
+
+        <Element name="projects">
+        <Projects />
+        {/* <Projects setShowDetails={setShowDetails} setProjectState={setProjectState}/>
+        {showDetails && <ProjectDetails project={projectState} setShowDetails={setShowDetails} />} */}
+        </Element>
+        <Element name="contact">
+        <Contact />
+        </Element>
+        <Element name="resume">
+        <Resume />
+        </Element>   
+
     </div>
   );
 }

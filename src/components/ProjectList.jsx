@@ -6,8 +6,10 @@ function ProjectList(props) {
     <>
       <h1>My Projects</h1>
       <div className="project-list">
-        {props.myProjects.map((project, idx) =>
-          <div > <ProjectPreview key={idx} title={project.title} image={project.image} technology={project.technology}/>
+        {props.myProjects.map((project) =>
+          <div key={project.title}> <ProjectPreview  project={project} setShowDetails={props.setShowDetails} setProjectState={props.setProjectState} 
+          title={project.title} image={project.image} technology={project.technology}
+          />
           </div>
         )}
 

@@ -5,13 +5,11 @@ function About() {
     <>
       <div className='about-container'>
         <section id='about'>
-          <h1>I'm a full stack developer with experience in React and JavaScript.</h1>
-
-          <h4>What would you do if you knew you would not fail? In 2023, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. My career in software engineering has been fullfilling, and I'm excited about the future. </h4>
-          <h4>I hope you will you check out my recent projects and reach out to connect with me.</h4>
+          <h1>Software engineer with experience collaborating on cross-functional teams in Agile environments.</h1>
+          <h4>What would you do if you knew you would not fail? In 2023, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. My career pivot into tech has been fullfilling, and I'm excited about the future.</h4>
         </section>
         <section id="technology">
-          <h1>Technologies I use:</h1>
+          <h1>Technology:</h1>
           <div className="icons">
             <div>
               <label htmlFor="">React</label>
@@ -60,12 +58,7 @@ function About() {
           </div>
         </section>
       </div>
-
-
-
-
     </>
-
   )
 }
 

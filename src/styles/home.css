@@ -1,18 +1,12 @@
-#home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #home img {
   object-fit: cover;
-  border-radius: 24%;
-  border: 1px solid #072ac8;
-
 }
 
-#home h1,
-h2 {
-  text-align: center;
-  padding: 50px
+#home h1 {
+  font-size: 40px;
 }
+
+#home h3 {
+  font-size: 25px;
+}
+

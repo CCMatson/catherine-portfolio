@@ -1,49 +1,57 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+import '../styles/nav.css'
 
 function NavBar() {
     return (
         <nav className="navBar">
-            {/* <div className="nav-link"> */}
-            <div className="links-container">
-            <Link className="link-pages"
-                to='/'
-            >
-                Catherine Matson
-            </Link>
-            {/* </div> */}
-            <div >
-                <Link className="link-pages"
-                    to='/projects'
-                >
-                    Projects
-                </Link>
-            </div>
-                <div>
-                    <Link className="link-pages"
-                        to='/about'
+            <ul>
+                <li>
+                    <Link 
+                    className="link-pages"
+                        to='about'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                     >
                         About
                     </Link>
-                </div>
-
-                <div>
+                </li>
+                <li>
+                    <Link 
+                    className="link-pages"
+                        to='projects'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        Projects
+                    </Link>
+                </li>
+                <li>
                     <Link className="link-pages"
-                        to='/contact'
+                        to='contact'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                     >
                         Contact
                     </Link>
-                </div>
-
-                <div>
+                </li>
+                <li>
                     <Link className="link-pages"
-                        to='/resume'
+                        to='resume'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                     >
                         Resume
                     </Link>
-                </div>
-
-
-            </div>
+                </li>
+            </ul>
         </nav>
     )
 }
