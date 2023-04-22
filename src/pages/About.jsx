@@ -48,7 +48,7 @@ function About() {
               <img src="https://skillicons.dev/icons?i=mongodb" alt="mongoDB" />
             </div>
             <div>
-              PostgreSQL
+              <label htmlFor=""> PostgreSQL</label>
               <img src="https://skillicons.dev/icons?i=postgres" alt="postgres-icon" />
             </div>
             <div>

@@ -89,3 +89,11 @@ ul {
   will-change: transform, opacity;
   z-index: 0;
 }
+
+@media screen and (max-width: 850px) {
+  .navBar{
+    display: none;
+  }
+  
+
+}

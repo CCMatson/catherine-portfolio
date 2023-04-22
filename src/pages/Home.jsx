@@ -8,12 +8,6 @@ function Home() {
         <h3>Full Stack Software Engineer</h3>
         <img src="https://i.imgur.com/Fzuh9r2.png" alt="Logo with text, Catherine Matson, Full Stack Software Engineer" />
       </section>
-      
-
-
-
-
-
     </>
   )
 }

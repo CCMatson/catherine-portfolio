@@ -2,7 +2,7 @@
 
 <a href="https://imgur.com/VyDet44"><img src="https://i.imgur.com/VyDet44.png" title="source: imgur.com" /></a>
 
-# [Click this link to visit the app](https://ccm-react-portfolio.netlify.app/)
+# [Click here to visit the deployed app](https://ccm-react-portfolio.netlify.app/)
 
 #### Technology used
 * React
