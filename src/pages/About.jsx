@@ -8,7 +8,7 @@ function About() {
 
           <h1>Software engineer with experience collaborating on cross-functional teams in Agile environments.</h1>
 
-          <h4>What would you do if you knew you would not fail? In 2023, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. My career in software engineering has been fullfilling so far, and I'm excited about the future.</h4>
+          <h4>What would you do if you knew you would not fail? In 2023, I asked myself that question and decided to take a leap of faith. I paused a rewarding career in science education to invest in my career by taking a General Assembly's Software Engineering Intensive. My career pivot into tech has been fullfilling, and I'm excited about the future.</h4>
 
         </section>
         <section id="technology">
