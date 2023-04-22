@@ -1,4 +1,5 @@
 import './App.css';
+import { Element } from 'react-scroll';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -12,16 +13,25 @@ function App() {
   return (
     <div className="App">
         <NavBar/>
-        <main>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/projects' element={<Projects />} />
-          < Route path='/projects/:projectDetails' element={<ProjectDetails/>}/>
-        </Routes>
-        </main>
+        <Element name="home">
+        <Home />
+        </Element>
+        <Element name="about">
+        <About />
+        </Element>
+        <Element name="projects">
+        <Projects />
+        </Element>
+        <Element name="contact">
+        <Contact />
+        </Element>
+        <Element name="resume">
+        <Resume />
+        </Element>   
+        {/* <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+  Back to top
+</button> */}
+
     </div>
   );
 }

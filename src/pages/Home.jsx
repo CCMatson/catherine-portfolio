@@ -5,7 +5,8 @@ function Home() {
     <>
       <section id='home'>
         <h1>Catherine Matson</h1>
-        <img src="https://i.imgur.com/VyDet44.png" alt="   Full Stack Software Engineer" />
+        <h3>Full Stack Software Engineer</h3>
+        <img src="https://i.imgur.com/Fzuh9r2.png" alt="Logo with text, Catherine Matson, Full Stack Software Engineer" />
       </section>
 
 
