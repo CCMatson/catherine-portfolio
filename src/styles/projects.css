@@ -1,12 +1,14 @@
-.projects h1{
+.projects h1 {
   text-align: center
 }
+
 .projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .project-list {
   display: flex;
   align-items: center;
@@ -31,7 +33,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* width: 45%; */
   border: .5px solid black;
   border-radius: 10px;
   margin: 5px;
@@ -42,45 +43,42 @@
   background-color: #fff;
 }
 
-.project-preview img{
+.project-preview img {
   width: 350px;
   height: 200px;
-  border: #282c34 solid  1px;
+  border: #282c34 solid 1px;
 
 }
 
-.project-preview button{
+.project-preview button {
   margin: 20px;
   width: 350px;
 }
 
-.project-preview button:hover{
+.project-preview button:hover {
   margin: 20px;
   width: 350px;
   background-color: #282c34;
   color: #fff;
 }
 
-.preview-title{
+.preview-title {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.project-preview h2{
+.project-preview h2 {
   width: 300px;
-  /* position: absolute; */
-    top: 0;
-    height: 100%;
-    /* width: 100%;
-    opacity: 0; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.details-page{
+.details-page {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -89,13 +87,13 @@
 
 .details-page img {
   width: 50vw;
-border: 1px black solid;
+  border: 1px black solid;
   border-radius: 24px;
 }
 
 .details-page button {
-font-size: 24px;
-margin: 20px;
+  font-size: 24px;
+  margin: 20px;
 }
 
 .details-page button:hover {
@@ -103,12 +101,10 @@ margin: 20px;
   margin: 20px;
   background-color: #282c34;
   color: #fff;
-  }
+}
 
 
 .details-page h4 {
   text-align: center;
   width: 50vw;
 }
-
-

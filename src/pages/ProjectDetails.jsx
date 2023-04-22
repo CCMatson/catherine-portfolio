@@ -4,9 +4,7 @@ import { useParams } from "react-router-dom";
 
 
 function ProjectDetails() {
-
   const { projectDetails } = useParams()
-
   const project = findProjects(projectDetails)
 
 

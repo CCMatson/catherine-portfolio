@@ -1,7 +1,6 @@
-import { useState } from 'react';
 import './App.css';
+import { useState } from 'react';
 import { Element } from 'react-scroll';
-// import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -11,8 +10,8 @@ import NavBar from './components/NavBar';
 import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
-  const [showDetails, setShowDetails] = useState(false)
-  const [projectState, setProjectState] = useState({})
+  // const [showDetails, setShowDetails] = useState(false)
+  // const [projectState, setProjectState] = useState({})
   return (
     <div className="App">
         <NavBar/>
@@ -24,8 +23,9 @@ function App() {
         </Element>
 
         <Element name="projects">
-        <Projects setShowDetails={setShowDetails} setProjectState={setProjectState}/>
-        {showDetails && <ProjectDetails project={projectState} setShowDetails={setShowDetails} />}
+        <Projects />
+        {/* <Projects setShowDetails={setShowDetails} setProjectState={setProjectState}/>
+        {showDetails && <ProjectDetails project={projectState} setShowDetails={setShowDetails} />} */}
         </Element>
         <Element name="contact">
         <Contact />
@@ -33,9 +33,6 @@ function App() {
         <Element name="resume">
         <Resume />
         </Element>   
-        {/* <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-  Back to top
-</button> */}
 
     </div>
   );

@@ -16,15 +16,12 @@ ul {
   text-decoration: none;
   background-color: #282c34;
   color: #fff;
-  /* color: #072ac8; */
   border-radius: 24px;
-  /* padding: 10px; */
   align-items: center;
   appearance: none;
   border-radius: 24px;
   border-style: none;
   border: #a2d6f9 .05px solid;
-  /* border: #0000FF .5px solid; */
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
   box-sizing: border-box;
   text-decoration: none;
