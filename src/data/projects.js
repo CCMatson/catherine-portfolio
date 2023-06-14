@@ -16,6 +16,14 @@ const myProjects = [
     deploymentLink: 'https://plantivity.netlify.app/'
   },
   {
+    title: 'Tetris',
+    technology: "Vite, React, TypeScript, HTML, CSS (Desktop only)",
+    description: "This is a remake of the classic Nintendo game Tetris, made using React and TypeScript.",
+    image: '/TetrisLanding.png',
+    repositoryLink: 'https://github.com/CCMatson/ts-tetris',
+    deploymentLink: 'https://tetris-ts-23.netlify.app/'
+  },
+  {
     title: 'Weather App',
     technology: "React, TypeScript, Open Weather API, HTML, CSS",
     description: "As a user, you can input the name of a city to get the weather forecast at that location. This app makes calls to two different API endpoints.",
