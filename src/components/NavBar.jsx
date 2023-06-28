@@ -1,10 +1,14 @@
 import { Link } from "react-scroll";
 import '../styles/nav.css'
+import { useState } from "react";
 
 function NavBar() {
+
+    const [showMenu, setShowMenu] = useState(false);
+
     return (
-        <nav className="navBar">
-            <ul>
+        <nav id="nav" className={showMenu ? "navMenu" : "navBar"}>
+            <ul className={showMenu ? "mobile-menu-link" : "menu-link"}>
                 <li>
                     <Link 
                     className="link-pages"
@@ -52,6 +56,11 @@ function NavBar() {
                     </Link>
                 </li>
             </ul>
+
+           <div className="hamburger-menu">
+            <img onClick={ () => setShowMenu(!showMenu) } src="menu-hamburger-white.svg" alt="Hamburger menu" />
+           </div>
+
         </nav>
     )
 }

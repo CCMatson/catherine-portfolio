@@ -21,6 +21,10 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.App {
+  overflow: hidden;
+}
+
 
 h1 {
   font-size: 24px;
