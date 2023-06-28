@@ -30,9 +30,9 @@ function App() {
         <Element name="contact">
         <Contact />
         </Element>
-        <Element name="resume">
+        {/* <Element name="resume">
         <Resume />
-        </Element>   
+        </Element>    */}
 
     </div>
   );
