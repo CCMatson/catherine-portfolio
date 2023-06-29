@@ -41,13 +41,22 @@ width: 50%;
 object-fit:fill;
 }
 
+.contact-one h4  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
 @media screen and (max-width: 850px) {
  .contact-two img {
-  display: none;
+  /* display: none; */
+  width: 350px;
  }
+
  .contact-page {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -59,4 +68,10 @@ object-fit:fill;
   justify-content: center;
  }
 
+}
+
+@media screen and (max-width: 500px) {
+  .contact-page {
+    flex-direction: column;
+  }
 }
